@@ -19,6 +19,11 @@ body {
     #23083b 50%,
     #1d0730 100%
   );
+  font-family: "Roboto";
+}
+
+.rankings p {
+  font-size: 20px;
 }
 
 #navPlayerStats a,
