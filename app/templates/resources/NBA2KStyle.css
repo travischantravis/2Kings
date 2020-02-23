@@ -41,7 +41,12 @@ body {
   flex-wrap: wrap;
 }
 .kingsPlayers {
-  width: 20%;
+  width: 30%;
+  margin: 20px;
+}
+
+.comparePlayers {
+  width: 30%;
   margin: 20px;
 }
 

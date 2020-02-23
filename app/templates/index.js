@@ -1,5 +1,5 @@
 var sel = document.getElementById("teams");
-var img = document.getElementById("comparePlayers");
+var img = document.querySelectorAll(".comparePlayers");
 
 document.getElementById("btn").onclick = function() {
   var opts = sel.options;
@@ -7,7 +7,9 @@ document.getElementById("btn").onclick = function() {
     if (opts[j].selected) {
       console.log(opts[j].text);
       team = opts[j].text;
-      img.src = "./players_img/kings" + team + ".png";
+      for (var i = 1; i <= 6; i++) {
+        img[i - 1].src = "./players_img/kings" + team + i + ".png";
+      }
     }
   }
 };
