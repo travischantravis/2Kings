@@ -1,132 +1,172 @@
 @charset "ISO-8859-1";
 body {
-background: #1D0730;
-background: -moz-radial-gradient(center, #1D0730 0%, #23083B 50%, #1D0730 100%);
-background: -webkit-radial-gradient(center, #1D0730 0%, #23083B 50%, #1D0730 100%);
-background: radial-gradient(ellipse at center, #1D0730 0%, #23083B 50%, #1D0730 100%);
+  background: #1d0730;
+  background: -moz-radial-gradient(
+    center,
+    #1d0730 0%,
+    #23083b 50%,
+    #1d0730 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    #1d0730 0%,
+    #23083b 50%,
+    #1d0730 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    #1d0730 0%,
+    #23083b 50%,
+    #1d0730 100%
+  );
+}
+
+#navPlayerStats a,
+#navHome a {
+  color: white;
+  border: white solid 2px;
+  padding: 10px;
+  top: 20px;
+  left: 20px;
+  position: relative;
+  font-size: 20px;
+}
+
+#powerRankingImg {
+  margin-top: 30px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kingsPlayers {
+  width: 20%;
+  margin: 20px;
 }
 
 #openingTitle {
-	color: white;
-	text-align: center;
-	margin: auto;
+  color: white;
+  text-align: center;
+  margin: auto;
 }
 #description {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 
 table.button-container {
-	margin: auto;
+  margin: auto;
   border: 1px solid #000000;
-  background-color: #5FC7FF;
+  background-color: #5fc7ff;
   text-align: center;
 }
-table.button-container td, table.button-container th {
+table.button-container td,
+table.button-container th {
   border: 2px solid #000000;
   padding: 2px 2px;
 }
 td a {
-    display:block;
-    width:100%;
+  display: block;
+  width: 100%;
 }
 #padding {
-	padding-top: 50px;
+  padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
 }
 #overview {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare1 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare2 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare3 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare4 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare5 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare6 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare7 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare8 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare9 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare10 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare11 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare12 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare13 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare14 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare15 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare16 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare17 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare18 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare19 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #compare20 {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #conclusion {
-	color: white;
-	margin: auto;
+  color: white;
+  margin: auto;
 }
 #footer {
-	color: white;
-	margin: auto;
-	text-align: center;
-	font-size: 10px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-size: 10px;
 }
