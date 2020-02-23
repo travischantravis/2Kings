@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body {
+background: #1D0730;
+background: -moz-radial-gradient(center, #1D0730 0%, #23083B 50%, #1D0730 100%);
+background: -webkit-radial-gradient(center, #1D0730 0%, #23083B 50%, #1D0730 100%);
+background: radial-gradient(ellipse at center, #1D0730 0%, #23083B 50%, #1D0730 100%);
+}
+
+#openingTitle {
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+#description {
+	color: white;
+	margin: auto;
+}
+
+table.button-container {
+	margin: auto;
+  border: 1px solid #000000;
+  background-color: #5FC7FF;
+  text-align: center;
+}
+table.button-container td, table.button-container th {
+  border: 2px solid #000000;
+  padding: 2px 2px;
+}
+td a {
+    display:block;
+    width:100%;
+}
+#padding {
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+#overview {
+	color: white;
+	margin: auto;
+}
+#compare1 {
+	color: white;
+	margin: auto;
+}
+#compare2 {
+	color: white;
+	margin: auto;
+}
+#compare3 {
+	color: white;
+	margin: auto;
+}
